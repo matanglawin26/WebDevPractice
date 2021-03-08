@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account - STEC-HS</title>
+    <link rel="icon" href="/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="accounts.css">
+    <script src="https://kit.fontawesome.com/422b3e2101.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="ul-cont">
+            <div class="logo-container">
+                <a href='../index.html'><img src='/images/left.png' /></a>
+            </div>
+            <ul class='nav-list'>
+                <li>
+                    <a href='../index.html' class='hover capital'>Home</a>
+                </li>
+                <li class='main'>
+                    <a href='#' id='academic' class='hover capital'>Academics</a>
+                    <i id='acad-down' class="fas fa-chevron-down"></i>
+                    <ul id='hs' class='sub-acad baby'>
+                        <li class='jhs'>
+                            <a href='#' class='label first'>Junior High School</a>
+                            <i class="fas fa-angle-right"></i>
+                            <ul class='sub-acad second-baby'>
+                                <li>
+                                    <a href='#'>Grade 10</a>
+                                </li>
+                                <li>
+                                    <a href='#'>Grade 9</a>
+                                </li>
+                                <li>
+                                    <a href='#'>Grade 8</a>
+                                </li>
+                                <li>
+                                    <a href='#'>Grade 7</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class='shs'>
+                            <a href='#' class='label first'>Senior High School</a>
+                            <i class="fas fa-angle-right"></i>
+                            <ul class='sub-shs second-baby'>
+                                <li>
+                                    <a href='#'>STEM</a>
+                                </li>
+                                <li>
+                                    <a href='#'>ABM</a>
+                                </li>
+                                <li>
+                                    <a href='#'>HUMSS</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href='#' class='hover capital'>Admissions</a>
+                </li>
+                <li class='main'>
+                    <a href='#' id='about' class='hover capital'>About</a>
+                    <i class="fas fa-chevron-down"></i>
+                    <ul class='sub-about baby'>
+                        <li><a href='#'>History of STEC</a></li>
+                        <li><a href='#' class='mission'>Mission and Vision Statement</a></li>
+                        <li><a href='#'>Faculty</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href='#' class='hover capital'>Account</a>
+                </li>
+                <li>
+                    <div class="search-glass">
+                        <form action=''>
+                            <button class='srch-btn' type="button"><i class="fas fa-search"></i></button>
+                            <input class='searcher' type='text' name='search' placeholder="Type to search" />
+                        </form>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End of Nav -->
+    <div class="body1">
+        <div class="intro">
+            <h1>Create your Account</h1>
+            <p>To be informed regarding your application process</p>
+        </div>
+    </div>
+    <!-- End of Body1 -->
+    <div class="body2">
+        <div class="login-text">
+            <h1>Already have an account?</h1>
+            <p>Login to see updates in your dashboard and view your application status.</p>
+        </div>
+        <div class="login">
+            <h1>Account</h1>
+            <form action="account-login.php" method='POST'>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <div class="form-btn">
+                    <input type="submit" value="Register" class="submit" />
+                    <input type="submit" value="Login" class="submit" />
+                </div>
+            </form>
+            <a href="#">Forgot Password?</a>
+        </div>
+    </div>
+    <!-- End of Body2 -->
+    <!-- Start of Footer -->
+    <footer>
+        <div class="foot">
+            <div id="contact" class='feet'>
+                <p id='copy'>© 2020 Science and Technology Education Center - HS</p>
+                <p id='max'>Maximo Patalinghug Avenue, Basak, Lapu-Lapu City, Cebu, Philippines</p>
+            </div>
+            <div id="logo2" class='feet'>
+                <img src='/images/logo.png' alt='stec-logo' />
+            </div>
+            <div id="social" class='feet'>
+                <p>Follow us on our Social Media:</p>
+                <div class='soc'>
+                    <a href='#'><i class="fab fa-facebook"></i></a>
+                    <a href='#'><i class="fab fa-twitter"></i></a>
+                    <a href='#'><i class="fab fa-youtube"></i></a>
+                    <a href='#'><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src='../scipt/gsap.min.js'></script>
+    <script src='../scipt/ScrollTrigger.min.js'></script>
+    <script src='account.js'></script>
+</body>
+
+</html>

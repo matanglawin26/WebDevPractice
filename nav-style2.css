@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.ul-cont{
+    width: 100%;
+    height: 100px;
+    background-color: #053a6c;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ul-cont > ul{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1450px;
+}
+ul,a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.sub-acad,.sub-about,.sub-shs{
+    width: 14rem;
+    display: block;
+    position: absolute;
+    background-color: deepskyblue;    
+    box-shadow: 0 0 5px 0 grey;
+    z-index: 100;
+    top: 5rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: top .3s ease,opacity .3s ease,visibility .3s ease;
+}
+.baby > li{
+    transition: background-color .3s ease;
+}
+.baby> li:hover{
+    background-color: #054B7F;
+}
+.second-baby > li{
+    padding: 10px;
+    transition: background-color .3s ease;
+}
+.second-baby> li:hover{
+    background-color: #054B7F;
+}
+.sub-acad .sub-acad{
+    top:0;
+    left:115%;
+    transition: left .3s ease;
+    text-align: center;    
+    width: 10rem;
+}
+.first{
+    padding: 10px;
+}
+.sub-shs{
+    top:2.75rem;
+    left:115%;
+    transition: left .3s ease;    
+    text-align: center;
+    width: 10rem;
+}
+.nav-list li:hover > .sub-acad{
+    top: 4rem;
+    opacity: 1;
+    visibility: visible;
+}
+.sub-acad .jhs:hover > .sub-acad{
+    top: 0;
+    left: 101%;
+    opacity: 1;
+    visibility: visible; 
+}
+.fa-angle-right{
+    margin-left: 15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 20px;
+    transform: rotate(0);
+    transition: transform .3s ease;
+}
+.fa-chevron-down{
+    transform: rotate(0);
+    transition: transform .3s ease;
+}
+.sub-acad .shs:hover > .sub-shs{
+    top: 2.75rem;
+    left: 101%;
+    opacity: 1;
+    visibility: visible; 
+}
+.sub-acad .shs:hover > .fa-angle-right,
+.sub-acad .jhs:hover > .fa-angle-right{
+    transform: rotate(-180deg);
+}
+.nav-list li{
+    padding: 10px;
+}
+.nav-list li:hover > .sub-about{
+    top: 4rem;
+    opacity: 1;    
+    visibility: visible;
+}
+.nav-list li:hover > .fa-chevron-down{
+    transform: rotate(-180deg);
+}
+
+.sub-about{
+    text-align: center;
+    width: 13rem;
+}
+i{
+    margin-left: 10px;
+}
+
+/* KARAAN */
+
+/* .right-container ul{
+    display:flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.ul-cont{
+    position: relative;
+    z-index: 10;
+}
+ul{
+    z-index: 10;
+}
+ul li{
+    padding: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 0;
+    transition: color .3s ease;
+}
+ul a:hover{
+    color: #6490ab;
+} */

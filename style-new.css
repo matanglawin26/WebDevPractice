@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    overflow-x: hidden;
+    box-shadow: 0 0 10px 0 grey;
+}
+nav{
+    height: 100px;    
+    display:flex;
+    justify-content: space-evenly;    
+    align-items: center;    
+    z-index: initial;
+    position: relative;
+}
+.light-blue{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-width: 2500px 1400px 0 0;
+    border-color: transparent #6490ab transparent transparent ;
+    border-style: solid;
+    transform: translateX(47%);
+    flex-grow: 2;
+    margin: auto;
+    z-index: 0;
+}
+.dark-blue{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height:100%;
+    width: 20px;
+    border-width: 2500px 1400px 0 0;
+    border-color: transparent #053a6c transparent transparent ;
+    border-style: solid;
+    transform: translateX(1430px);
+    justify-content: space-around;    
+    z-index: 0;
+}
+.logo-container{
+    transform: translateX(-5%);
+}
+.right-container{
+    position: absolute;
+}
+.ul-cont{
+    position: relative;
+    z-index: 100;
+}
+.ul-cont > ul{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 650px;
+    z-index: 100;
+    transform: translateX(5%);
+}
+ul,a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+/* .glass{
+    color: white;    
+    transition: color .3s ease;
+}
+.glass:hover{
+    color: #6490ab;
+} */
+
+.fa-search{
+    color: white;
+    margin:0;
+    padding: 0;
+}
+.sub-acad,.sub-about,.sub-shs{
+    width: 14rem;
+    display: block;
+    position: absolute;
+    background-color: deepskyblue;    
+    
+}
+/* KARAAN */
+
+/* .right-container ul{
+    display:flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.ul-cont{
+    position: relative;
+    z-index: 10;
+}
+ul{
+    z-index: 10;
+}
+ul li{
+    padding: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 0;
+    transition: color .3s ease;
+}
+ul a:hover{
+    color: #6490ab;
+} */
